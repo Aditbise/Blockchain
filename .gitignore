@@ -32,3 +32,11 @@ package-lock.json
 # System files
 .DS_Store
 Thumbs.db
+
+# Private keys and secrets
+src/1
+*.key
+*.pem
+.env
+.env.local
+secrets/
