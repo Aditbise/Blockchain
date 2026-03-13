@@ -180,37 +180,20 @@ Development Tools:
 
 ## Technical Resume
 
-This project demonstrates proficiency in:
+Full-stack blockchain application with Angular 21 frontend and Node.js backend. Demonstrates expertise in modern web technologies and cryptographic systems.
 
-Technology Stack:
-- Frontend: Angular 21, TypeScript, Bootstrap, Tailwind CSS, RxJS
-- Backend: Node.js, Express.js, JavaScript
-- Cryptography: Elliptic Curve Cryptography (ECDSA), Digital Signatures
-- Testing: Vitest for unit testing and Jasmine/Karma compatible testing
-- Build Tools: Angular CLI, npm, webpack
+Technology: Angular 21, TypeScript, Node.js, Express.js, Bootstrap, Tailwind CSS, RxJS, Elliptic Curve Cryptography (ECDSA)
 
-Architecture and Design:
-- Server-side rendering for improved performance and SEO
-- Component-based architecture with reusable components
-- Service layer pattern for blockchain operations
-- Separation of concerns between frontend and backend
-- REST API design principles
-
-Blockchain Features Implemented:
-- Block creation and validation
-- Blockchain chain management
-- Transaction processing and pending transaction handling
-- Mining functionality for proof-of-work
+Key Features:
+- Server-side rendering for performance optimization
+- Component-based architecture with service layer pattern
+- Blockchain implementation with block validation and mining
 - Digital signature verification using ECDSA
-- Cryptographic key generation and management
-
-Development Practices:
-- Git version control with semantic commits
-- Security best practices for secret management
-- Environment-based configuration
-- Code organization and modular structure
-- Unit testing setup and configuration
+- Responsive UI with reusable components
+- Unit testing with Vitest
 - Production build optimization
+
+Skills Demonstrated: Full-stack development, cryptographic systems, REST APIs, component architecture, version control, security best practices
 
 ## Future Development
 
