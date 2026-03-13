@@ -1,0 +1,39 @@
+<div class="block" (click)="onBlockClick()">
+  <div class="block-header">
+    <h3>Block #{{ block.index }} <span *ngIf="block.index === 0" class="genesis-label">(Genesis block)</span></h3>
+    <span class="block-timestamp">{{ block.timestamp | date: 'short' }}</span>
+  </div>
+
+  <div class="block-content">
+    <div class="block-info">
+      <label>Hash:</label>
+      <span class="hash">{{ block.hash | slice: 0:16 }}...</span>
+    </div>
+
+    <div class="block-info">
+      <label>Previous Hash:</label>
+      <span class="hash">{{ block.previousHash | slice: 0:16 }}...</span>
+    </div>
+
+    <div class="block-info">
+      <label>Difficulty:</label>
+      <span>{{ block.difficulty }}</span>
+    </div>
+
+    <div class="block-info">
+      <label>Nonce:</label>
+      <span>{{ block.nonce }}</span>
+    </div>
+
+    <div class="block-data">
+      <label>Timestamp:</label>
+      <span>{{ block.timestamp | date: 'MM/dd/yyyy HH:mm:ss' }}</span>
+    </div>
+  </div>
+
+  <div class="block-footer">
+    <span class="status" [class.valid]="block.isValid" [class.invalid]="!block.isValid">
+      {{ block.isValid ? ' Valid' : ' Invalid' }}
+    </span>
+  </div>
+</div>

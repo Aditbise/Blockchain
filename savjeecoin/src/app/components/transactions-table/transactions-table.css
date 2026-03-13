@@ -1,0 +1,44 @@
+.table {
+  margin: 0;
+  font-size: 12px;
+}
+
+.table thead {
+  background: #f0f0f0;
+  font-weight: 600;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 4px 8px;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.text-muted {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

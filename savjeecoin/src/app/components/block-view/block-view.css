@@ -1,0 +1,129 @@
+
+.block {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  flex-shrink: 0;
+}
+
+.block:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  border-color: #007bff;
+  transform: translateY(-2px);
+}
+
+.block-header {
+  background: linear-gradient(135deg, #0056b3, #804fc0, #00ff55);
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.block-timestamp {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.block-content {
+  padding: 15px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.block-info {
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.block-info label {
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.block-info span {
+  color: #666;
+  word-break: break-all;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  background: #f9f9f9;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: block;
+}
+
+.hash {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.block-data {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.block-data label {
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.block-data p {
+  margin: 0;
+  color: #666;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  max-height: 80px;
+  overflow-y: auto;
+  word-break: break-word;
+}
+
+.block-footer {
+  background: #f9f9f9;
+  padding: 12px 15px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.status.valid {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status.invalid {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.genesis-label {
+  font-size: 12px;
+  font-weight: normal;
+  color: #fff;
+  margin-left: 8px;
+}
